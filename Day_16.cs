@@ -1,14 +1,18 @@
 using System;
 
-class Solution {
-    public static void Main(string[] args) {
+class Solution
+{
+    public static void Main(string[] args)
+    {
         string S = Console.ReadLine();
-        try {
+        try
+        {
             var n = Convert.ToInt32(S);
             Console.WriteLine(n);
         }
-        catch (Exception e) {
+        catch (Exception e)
+        {
             Console.WriteLine("Bad String");
         }
-    } 
+    }
 }
